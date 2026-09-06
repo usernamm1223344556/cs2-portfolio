@@ -71,6 +71,7 @@ END
 ---
 # Part 4 - Clean Code Implementation
 ## Source code
+https://github.com/usernamm1223344556/cs2-portfolio/blob/cea246bb43049343ed62e35326141f471552f0b9/q1/score_checker.py
 ---
 # Part 5 - Testing
 | Test | Input | Purpose | Expected Output | Actual Output | Result |
