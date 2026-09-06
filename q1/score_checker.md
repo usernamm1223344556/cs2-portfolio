@@ -104,4 +104,4 @@ END
 ### 2. How did proper comments and readable formatting improve your program?
 > Proper comments and clean formatting make your program readable, maintainable, and easy to debug. Comments help explain the code easly without looking at the code and figuring it out by themselves while proper formatting makes it much more simple and able to be read without difficulties.
 ### 3. Why is it useful to plan the program using a flowchart and pseudocode before writing the code?
-> Write your answers here
+> Planning with flowcharts and pseudocode helps picture how will your code work before implementing the coding syntax. Flowcharts are a visual representation of your code while pseudocode is what your code while act like before adding the syntax.
