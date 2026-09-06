@@ -46,7 +46,7 @@ Explain how the program decides which classification should be displayed.
 > It will classify it if it follows the guidlines like, for example, if the number is more than or equal to 90, it should display "Oustanding".
 ---
 # Part 2 - Flowchart
-
+q1/score_checker_flowchart.png
 ---
 
 # Part 3 - Pseudocode
