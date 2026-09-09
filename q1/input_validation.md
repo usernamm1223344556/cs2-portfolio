@@ -101,8 +101,8 @@ Your design should show:
 ## Final Code
 ```python
 nametime = input("Please enter your full name: ")
-age_input = input("Please enter your age: ")
-grade_input = input("Please enter your grade: ")
+ageing = input("Please enter your age: ")
+grader = input("Please enter your grade: ")
 emailmo = input("Please enter an email: ")
 regiscode = input("Please enter your registration code: ")
 
@@ -113,17 +113,17 @@ if nametime == "":
     print("Name should not be blank.")
     has_errors = True
 
-if not age_input.isdigit():
+if not ageing.isdigit():
     print("Age must be an integer.")
     has_errors = True
-elif int(age_input) < 11 or int(age_input) > 18:
+elif int(ageing) < 11 or int(ageing) > 18:
     print("Age must be a number between 11 to 18.")
     has_errors = True
 
-if not grade_input.isdigit():
+if not grader.isdigit():
     print("Grade must be an integer.")
     has_errors = True
-elif int(grade_input) < 7 or int(grade_input) > 12:
+elif int(grader) < 7 or int(grader) > 12:
     print("Grade must be 7 to 12.")
     has_errors = True
 
@@ -131,7 +131,7 @@ if "@" not in emailmo or "." not in emailmo:
     print("Email format is wrong.")
     has_errors = True
 
-if len(regiscode) < 6 or len(regiscode) > 6:
+if len(regiscode) != 6:
     print("Code must be 6 characters.")
     has_errors = True
 
@@ -140,8 +140,8 @@ if has_errors == False:
     print("REGISTRATION ACCEPTED")
     print("-" * 30)
     print(f"Student: {nametime}")
-    print(f"Age: {age_input}")
-    print(f"Grade Level: {grade_input}")
+    print(f"Age: {ageing}")
+    print(f"Grade Level: {grader}")
     print(f"Email: {emailmo}")
     print(f"Registration Code: {regiscode}")
 else:
@@ -153,40 +153,37 @@ else:
 ## Validation Techniques Used
 ### Presence Validation
 Explain where you used presence validation.
-> Write your answer here.
+> The validation was used on the Student Name input so that the user does not make the input blank, preventing blank records.
 ### Data Type Validation
 Explain where you used data type validation.
-> Write your answer here.
+> It was used on the Age and Grade Level inputs to confirm the user typed actual whole numbers instead of text.
 ### Range Validation
 Explain where you used range validation.
-> Write your answer here.
-
+> It was used on the Age input to ensure the number falls between 12 and 19, and on the Grade Level input makes sure it falls between 7 and 12.
 ### Acceptable Value Validation
 Explain where you used acceptable value validation.
-> Write your answer here.
+> It was used alongside range validation on the Grade Level so that it only allows grade numbers in the high school system (7, 8, 9, 10, 11, and 12).
 ### Pattern Validation
 Explain the simple pattern rule you used.
-> Write your answer here.
+> It was used on the Email Address input by checking that the text includes both an "@" symbol and a "." symbol.
 ### Length Validation
 Explain the length rule you used.
-> Write your answer here.
+> It was used on the Registration Code input to verify that the string length is exactly 6 characters.
 ---
 # Part D - Testing
 Test your program using both valid and invalid inputs.
 | Test | Input / Condition | Validation Being Tested | Expected Output | Actual Output | Result |
 |---:|---|---|---|---|---|
-| 1 | All inputs valid | Normal case | | | |
-| 2 | Blank student name | Presence | | | |
-| 3 | Age = `fourteen` | Data type | | | |
-| 4 | Age = `11` | Minimum boundary | | | |
-| 5 | Age = `18` | Maximum boundary | | | |
-| 6 | Age = `10` | Range | | | |
-| 7 | Grade Level = `13` | Acceptable value | | | |
-| 8 | Email = `studentpshs.edu.ph` | Pattern | | | |
-| 9 | Registration Code = `ABC` | Length | | | |
-| 10 | Registration Code = `CS2026` | Valid length | | | |
-Write **PASS** when the actual output matches the expected output.
-Write **FAIL** when it does not.
+| 1 | All inputs valid | Normal case | Benedict Kyler P. Bigtas, 13, 8, bigtas@benedict.com, IJJ493 | Benedict Kyler P. Bigtas, 13, 8, bigtas@benedict.com, IJJ493 | PASS |
+| 2 | Blank student name | Presence | Name should not be blank. | Name should not be blank. | PASS |
+| 3 | Age = `fourteen` | Data type | Age must be an integer. | Age must be an integer. | PASS |
+| 4 | Age = `11` | Minimum boundary | "The message will be accepted." | "The message will be accepted." | PASS |
+| 5 | Age = `18` | Maximum boundary | "The message will be accepted." | "The message will be accepted." | PASS |
+| 6 | Age = `10` | Range | Age must be a number between 11 to 18. | Age must be a number between 11 to 18. | PASS |
+| 7 | Grade Level = `13` | Acceptable value | Grade must be 7 to 12. | Grade must be 7 to 12. | PASS |
+| 8 | Email = `studentpshs.edu.ph` | Pattern | Email format is wrong. | Email format is wrong. | PASS |
+| 9 | Registration Code = `ABC` | Length | Code must be 6 characters. | Code must be 6 characters. | PASS |
+| 10 | Registration Code = `CS2026` | Valid length | "The message will be accepted." | "The message will be accepted." | PASS |
 ---
 # Part E - Output Verification
 Choose any **three tests** from Part D.
