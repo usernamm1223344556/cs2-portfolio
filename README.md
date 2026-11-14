@@ -10,3 +10,4 @@
 # Second Quarter
 - [Student Performance Evaluator](q2/Student%20Performance%20Evaluator)
 - [The Canteen Purchase Calculator](q2/The%20Canteen%20Purchase%20Calculator)
+- [Programming Exercises](q2/Programming%20Exercises)
