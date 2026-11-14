@@ -6,4 +6,4 @@
 - [Cybersecurity Activity](q1/cybersecurity.md)
 - [Score Checker Flowchart](q1/score_checker_flowchart.png)
 - [Security Registration Activity](secure_registration.py)
-- [Workshop Validator](warkshop_validator.py)
+- [Workshop Validator](workshop_validator.py)
