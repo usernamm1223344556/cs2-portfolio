@@ -5,5 +5,5 @@
 - [Input Validation and Output Verification](q1/input_validation.md)
 - [Cybersecurity Activity](q1/cybersecurity.md)
 - [Score Checker Flowchart](q1/score_checker_flowchart.png)
-- [Security Registration Activity](secure_registration.py)
-- [Workshop Validator](workshop_validator.py)
+- [Security Registration Activity](q1/secure_registration.py)
+- [Workshop Validator](q1/workshop_validator.py)
