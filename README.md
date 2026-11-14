@@ -7,3 +7,5 @@
 - [Score Checker Flowchart](q1/score_checker_flowchart.png)
 - [Security Registration Activity](q1/secure_registration.py)
 - [Workshop Validator](q1/workshop_validator.py)
+# Second Quarter
+[Student Performance Evaluator](q2/Student%20Performance%20Evaluator)
