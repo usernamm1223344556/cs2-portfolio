@@ -10,4 +10,4 @@
 # Second Quarter
 - [Student Performance Evaluator](q2/Student%20Performance%20Evaluator)
 - [The Canteen Purchase Calculator](q2/canteen_purchase_calculator.py)
-- [Programming Exercises](q2/Programming%20Exercises)
+- [Programming Exercises](q2/programming_exercises.py)
