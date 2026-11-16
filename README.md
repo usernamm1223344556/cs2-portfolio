@@ -8,6 +8,6 @@
 - [Security Registration Activity](q1/secure_registration.py)
 - [Workshop Validator](q1/workshop_validator.py)
 # Second Quarter
-- [Student Performance Evaluator](q2/Student%20Performance%20Evaluator)
+- [Student Performance Evaluator](q2/student_performance_evaluator.py)
 - [The Canteen Purchase Calculator](q2/canteen_purchase_calculator.py)
 - [Programming Exercises](q2/programming_exercises.py)
