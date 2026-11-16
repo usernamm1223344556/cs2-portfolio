@@ -9,5 +9,5 @@
 - [Workshop Validator](q1/workshop_validator.py)
 # Second Quarter
 - [Student Performance Evaluator](q2/Student%20Performance%20Evaluator)
-- [The Canteen Purchase Calculator](q2/The%20Canteen%20Purchase%20Calculator)
+- [The Canteen Purchase Calculator](q2/canteen_purchase_calculator.py)
 - [Programming Exercises](q2/Programming%20Exercises)
